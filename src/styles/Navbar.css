@@ -3,16 +3,38 @@
     justify-content: space-between;
     align-items: center;
     padding: 0 6vw 0 6vw;
-    height: 60px;
+    height: 100px;
     background: rgb(73,89,106);
-    background: linear-gradient(90deg, rgba(73,89,106,1) 42%, rgba(35,31,32,1) 100%);
+    background: linear-gradient(90deg, rgba(73,89,106,1) 0%, rgba(35,31,32,1) 37%);
 }
 
-.linkIcons {
+.navbarLogo h1 {
+    margin-bottom: 0;
+    color: #ffffff;
+    font-size: 1.5rem;
+}
+
+.navLinks {
     display: flex;
-    align-items: flex-start;
+    align-items: center;
 }
 
-.linkIcons a {
-    padding: 10px;
+.navLinks li {
+margin: 10px;
 }
+
+.navLinks svg {
+    font-size: 35px;
+}
+
+.buttonLink {
+    display: inline-block;
+    padding: 5px 25px; 
+    color: #ffffff; 
+    text-decoration: none; 
+    border-radius: 20px; 
+    border: 1px solid #ffffff; 
+}
+
+
+
