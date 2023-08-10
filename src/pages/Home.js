@@ -12,7 +12,7 @@ function Home() {
             </section>
             <Skills />
             <section className='experience row'>
-                <section className='projects'>
+                <section className='projectsExp'>
                     <h1>Projects</h1>
                 </section>
                 <section className='history'>
