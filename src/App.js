@@ -11,8 +11,12 @@ import Home from './pages/Home';
 function App() {
   return (
     <div className="App">
-      <GoogleFontLoader fonts={[{ font: 'Work Sans', weights: [500] }]} />
-      <Router basename='/'>
+      <GoogleFontLoader 
+        fonts={[
+          { font: 'Work Sans', weights: [500] },
+          { font: 'Montserrat', weights: [300, 700] } 
+        ]} 
+      />      <Router basename='/'>
         <Navbar />
         <Routes>
           <Route path='/' element={<Home />} />

@@ -2,6 +2,10 @@ h1 {
     font-size: 1.4rem;
 }
 
+li {
+    margin-bottom: 20px;
+}
+
 .row {
     padding: 0px 8vw 50px;
 
@@ -13,4 +17,17 @@ h1 {
 
 .experience section {
     flex: 1;
+}
+
+.projectsExp {
+    padding-right: 6vw;
+}
+
+.history {
+    padding-left: 6vw;
+}
+
+.strongBlue {
+    color: #00D7D7;
+    text-decoration: underline;
 }
