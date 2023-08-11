@@ -1,3 +1,7 @@
 .projects {
     background-color: #F1F2F2;
  }
+
+ .projectTitle {
+    display: flex;
+ }

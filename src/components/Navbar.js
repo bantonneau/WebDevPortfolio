@@ -20,7 +20,7 @@ function Navbar() {
                         <GitHub className='githubIcon' />
                     </Link>
                 </li>
-                <li><Link className='buttonLink'>RESUME</Link></li>
+                <li><Link className='buttonFill'>RESUME</Link></li>
                 <li><Link className='buttonLink'>CONTACT</Link></li>
             </ul>
         </nav>

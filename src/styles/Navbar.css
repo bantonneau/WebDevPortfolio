@@ -26,7 +26,22 @@ margin: 10px;
 
 .navLinks svg {
     font-size: 35px;
+    color: #ffffff;
+    filter:  
+    drop-shadow(1.5px 1.5px 1px #00D7D7)
 }
+
+.buttonFill {
+    display: inline-block;
+    padding: 5px 25px;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: #00D7D7;
+    border: 1px solid #00D7D7;
+    color: #231F20; 
+}
+
+
 
 .buttonLink {
     display: inline-block;
@@ -36,6 +51,8 @@ margin: 10px;
     border-radius: 20px; 
     border: 1px solid #ffffff; 
 }
+
+
 
 
 
