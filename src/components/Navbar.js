@@ -2,6 +2,7 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import '../styles/Navbar.css'
 import { LinkedIn, GitHub } from '@mui/icons-material'
+import Logo from '../assets/logo.png'
 
 function Circle() {
     return (
@@ -24,12 +25,13 @@ function Navbar() {
     return (
         <nav className='navbar'>
             <div className='navbarLogo'>
+                <img src={Logo} alt="Company Logo" className='navbarImage' />
                 <h1 href='/' className=''>Bennett Antonneau</h1>
             </div>
             <ul className='navLinks'>
                 <li>
                     <Link to="https://www.linkedin.com/in/benantonn/" target='_blank' className='LInavIcon'>
-                        <LinkedIn className='linkedinIcon'/>
+                        <LinkedIn className='linkedinIcon' />
                         <RoundedSquare />
                     </Link>
                 </li>

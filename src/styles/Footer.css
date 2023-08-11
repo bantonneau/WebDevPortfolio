@@ -1,0 +1,14 @@
+.footer {
+    display: flex;
+    align-items: center;
+    height: 200px;
+    justify-content: space-between;
+    padding: 0 8vw;
+    background-color: #49596A;
+    color: white;
+}
+
+.footerInfo h1 {
+    padding-top: 0;
+    margin-bottom: 0;
+}

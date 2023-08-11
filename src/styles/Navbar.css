@@ -8,11 +8,21 @@
     background: linear-gradient(90deg, rgba(73, 89, 106, 1) 0%, rgba(35, 31, 32, 1) 37%);
 }
 
+.navbarLogo {
+    display: flex;
+    align-items: center;
+}
+
 .navbarLogo h1 {
     margin-bottom: 0;
     color: #ffffff;
-    font-size: 1.5rem;
+    font-size: 1.6rem;
     padding: 0;
+}
+
+.navbarImage {
+    max-width: 100px;
+    margin-right: 4vw;
 }
 
 .navLinks {

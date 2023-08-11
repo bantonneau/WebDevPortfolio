@@ -31,3 +31,18 @@ li {
     color: #00D7D7;
     text-decoration: underline;
 }
+
+@media (max-width: 725px) {
+    .navbar {
+        flex-direction: column;
+        height: 150px;
+    }
+
+    .experience {
+        flex-direction: column;
+    }
+
+    .history {
+        padding-left: 0;
+    }
+}
