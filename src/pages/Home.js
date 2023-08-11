@@ -1,4 +1,4 @@
-import React, { useRef } from 'react'
+import React, { useState, useEffect, createRef } from 'react'
 import '../styles/Home.css'
 import Skills from '../components/Skills'
 import Projects from '../components/Projects'
@@ -7,12 +7,18 @@ import { Link } from 'react-router-dom';
 
 
 function Home() {
-    const projectsRef = useRef(null);
 
-    const scrollToProjects = (e) => {
-        e.preventDefault();
-        projectsRef.current.scrollIntoView({ behavior: 'smooth' });
+    const [projectRefs, setProjectRefs] = useState([]);
+
+    useEffect(() => {
+        setProjectRefs(prevRefs => Array(projectList.length).fill().map((_, i) => prevRefs[i] || createRef()));
+    }, []);
+    
+    const scrollToProject = (projectIndex) => {
+        projectRefs[projectIndex].current.scrollIntoView({ behavior: 'smooth' });
     }
+    
+
 
     return (
         <main>
@@ -27,7 +33,12 @@ function Home() {
                     <ul>
                         {projectList.map((project, index) => (
                             <li key={index}>
-                                <Link href="#" onClick={scrollToProjects} className='strongBlue'><strong>{project.name}</strong></Link>
+                                <Link
+                                    href="#"
+                                    onClick={() => scrollToProject(index)}
+                                    className='strongBlue'>
+                                    <strong>{project.name}</strong>
+                                </Link>
                                 <p>{project.technologies}</p>
                             </li>
                         ))}
@@ -63,12 +74,7 @@ function Home() {
 
                 </section>
             </section>
-            <div ref={projectsRef}>
-                <Projects />
-            </div>
-            <section className='interests row'>
-                <h1>Personal Interests</h1>
-            </section>
+            <Projects projectRefs={projectRefs} />
         </main>
     )
 }

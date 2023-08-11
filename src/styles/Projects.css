@@ -1,7 +1,36 @@
 .projects {
     background-color: #F1F2F2;
- }
+}
 
- .projectTitle {
+.projectTitle {
     display: flex;
- }
+    align-items: center;
+}
+
+.projectButtons {
+    display: flex;
+    align-items: center;
+}
+
+.projButton {
+    margin-left: 10px;
+    display: inline-block;
+    padding: 5px 25px;
+    color: #231F20;
+    text-decoration: none;
+    border-radius: 20px;
+    border: 2px solid #00D7D7;
+}
+
+.GHprojIcon {
+    color: white;
+    position: relative;
+    width: 40px;  /* Match the SVG width */
+    height: 40px; /* Match the SVG height */
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.projectBullets {
+    padding-left: 20px;
+}
