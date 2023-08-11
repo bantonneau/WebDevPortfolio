@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import '../styles/Navbar.css'
-import { LinkedIn, GitHub } from '@mui/icons-material'
+import { LinkedIn, GitHub, Email, Article } from '@mui/icons-material'
 import Logo from '../assets/logo.png'
 
 function Circle() {
@@ -20,7 +20,21 @@ function RoundedSquare() {
     );
 }
 
+function EmailOutline() {
+    return (
+        <svg width="35" height="27" className='iconBorder'>
+            <rect x="1" y="1" width="31" height="25" rx="4" ry="4" fill="none" stroke="#00D7D7" strokeWidth="2" />
+        </svg>
+    );
+}
 
+function ResumeOutline() {
+    return (
+        <svg width="30" height="33" className='iconBorder'>
+            <rect x="1" y="1" width="28" height="28" rx="4" ry="4" fill="none" stroke="#00D7D7" strokeWidth="2" />
+        </svg>
+    );
+}
 function Navbar() {
     return (
         <nav className='navbar'>
@@ -31,7 +45,7 @@ function Navbar() {
             <ul className='navLinks'>
                 <li>
                     <Link to="https://www.linkedin.com/in/benantonn/" target='_blank' className='LInavIcon'>
-                        <LinkedIn className='linkedinIcon' />
+                        <LinkedIn className='navIcon' />
                         <RoundedSquare />
                     </Link>
                 </li>
@@ -41,8 +55,24 @@ function Navbar() {
                         <Circle />
                     </Link>
                 </li>
-                <li><Link className='buttonFill'>RESUME</Link></li>
-                <li><Link className='buttonLink'>CONTACT</Link></li>
+                <section className='navButtons'>
+                    <li><Link className='buttonFill'>RESUME</Link></li>
+                    <li><Link className='buttonLink'>CONTACT</Link></li>
+                </section>
+                <section className='navButtonsIcons'>
+                    <li>
+                        <Link to="https://www.linkedin.com/in/benantonn/" target='_blank' className='EMAILnavIcon'>
+                            <Email className='navIcon' />
+                            <EmailOutline />
+                        </Link>
+                    </li>
+                    <li>
+                        <Link to="https://www.linkedin.com/in/benantonn/" target='_blank' className='RESnavIcon'>
+                            <Article className='navIcon' />
+                            <ResumeOutline />
+                        </Link>
+                    </li>
+                </section>
             </ul>
         </nav>
     )

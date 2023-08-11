@@ -1,5 +1,5 @@
 .footer {
-    display: flex;
+    display: none;
     align-items: center;
     height: 200px;
     justify-content: space-between;
@@ -11,4 +11,10 @@
 .footerInfo h1 {
     padding-top: 0;
     margin-bottom: 0;
+}
+
+.footerLinks a {
+    color: #00D7D7;
+    margin: 10px;
+    font-weight: 700;
 }

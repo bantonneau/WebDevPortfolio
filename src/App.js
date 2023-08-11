@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import './styles/Reset.css'
 import './styles/Global.css'
@@ -14,7 +13,7 @@ function App() {
       <GoogleFontLoader 
         fonts={[
           { font: 'Work Sans', weights: [500] },
-          { font: 'Montserrat', weights: [300, 700] } 
+          { font: 'Montserrat', weights: [300, 500, 700] } 
         ]} 
       />      <Router basename='/'>
         <Navbar />

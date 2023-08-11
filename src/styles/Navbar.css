@@ -31,6 +31,8 @@
 }
 
 .navLinks li {
+    display: flex;
+    align-items: center;
     margin: 10px;
 }
 
@@ -41,12 +43,14 @@
 
 .LInavIcon {
     position: relative;
-    width: 30px;  /* Match the SVG width */
-    height: 30px; /* Match the SVG height */
+    width: 30px;
+    /* Match the SVG width */
+    height: 30px;
+    /* Match the SVG height */
     display: inline-block;
 }
 
-.linkedinIcon {
+.navIcon {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -55,8 +59,10 @@
 
 .GHnavIcon {
     position: relative;
-    width: 40px;  /* Match the SVG width */
-    height: 40px; /* Match the SVG height */
+    width: 40px;
+    /* Match the SVG width */
+    height: 40px;
+    /* Match the SVG height */
     display: inline-block;
 }
 
@@ -79,6 +85,10 @@
     transition: stroke 0.3s;
 }
 
+.navButtons {
+    display: flex;
+}
+
 .buttonFill {
     display: inline-block;
     padding: 5px 25px;
@@ -96,8 +106,6 @@
     color: #231F20;
 }
 
-
-
 .buttonLink {
     display: inline-block;
     padding: 5px 25px;
@@ -112,4 +120,54 @@
     background-color: white;
     border: 1px solid white;
     color: #231F20;
+}
+
+.navButtonsIcons {
+    display: none;
+}
+
+.EMAILnavIcon {
+    position: relative;
+    width: 33px;
+    /* Match the SVG width */
+    height: 27px;
+    /* Match the SVG height */
+    display: inline-block;
+}
+
+.EMAILnavIcon:hover .iconBorder rect {
+    stroke: #ffffff;
+    transition: stroke 0.3s;
+}
+
+.RESnavIcon {
+    position: relative;
+    width: 30x;
+    height: 30px;
+    display: inline-block;
+}
+
+.RESnavIcon:hover .iconBorder rect {
+    stroke: #ffffff;
+    transition: stroke 0.3s;
+}
+
+@media (max-width: 725px) {
+    .navbar {
+        flex-direction: column;
+        height: 175px;
+    }
+
+    .navbarLogo {
+        margin-top: 20px;
+        flex-direction: column;
+    }
+
+    .navButtonsIcons {
+        display: flex;
+    }
+
+    .navButtons {
+        display: none;
+    }
 }

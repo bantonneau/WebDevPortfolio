@@ -24,13 +24,10 @@ function Projects({ projectRefs }) {
             <section className='projectTitle'>
               <p className='strongBlue' style={{ textDecoration: 'none' }}><strong>{project.name}</strong></p>
               <div className='projectButtons'>
-                {project.github ?
-                  <Link to='https://github.com/bantonneau' target='_blank' className='GHprojIcon'>
+                  <Link to={project.github} target='_blank' className='GHprojIcon'>
                     <GitHub className='githubIcon' />
                     <Circle />
                   </Link>
-                  : ""
-                }
                 {project.demo ? <button className='projButton' onClick={() => window.open(project.demo, '_blank')}>DEMO</button> : ""}
                 {project.live ? <button className='projButton' onClick={() => window.open(project.live, '_blank')}>LIVE</button> : ""}
               </div>
