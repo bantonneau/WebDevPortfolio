@@ -7,7 +7,7 @@ import { GitHub } from '@mui/icons-material'
 function Circle() {
   return (
       <svg width="40" height="40">
-          <circle cx="20" cy="20.3" r="16" fill="#231F20"/>
+          <circle cx="20" cy="20.3" r="16" fill="#231F20" stroke='white' strokeWidth='3px'/>
       </svg>
   );
 }

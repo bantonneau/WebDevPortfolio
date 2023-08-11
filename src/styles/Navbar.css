@@ -58,6 +58,17 @@
     font-size: 33px !important;
 }
 
+
+.GHnavIcon:hover .iconBorder circle {
+    stroke: #ffffff;
+    transition: stroke 0.3s;
+}
+
+.LInavIcon:hover .iconBorder rect {
+    stroke: #ffffff;
+    transition: stroke 0.3s;
+}
+
 .buttonFill {
     display: inline-block;
     padding: 5px 25px;
@@ -65,6 +76,13 @@
     text-decoration: none;
     background-color: #00D7D7;
     border: 1px solid #00D7D7;
+    color: #231F20;
+    transition: background-color 0.3s, border 0.3s;
+}
+
+.buttonFill:hover {
+    background-color: white;
+    border: 1px solid white;
     color: #231F20;
 }
 
@@ -77,4 +95,11 @@
     text-decoration: none;
     border-radius: 20px;
     border: 1px solid #ffffff;
+    transition: color 0.3s, border 0.3s, background-color 0.3s;
+}
+
+.buttonLink:hover {
+    background-color: white;
+    border: 1px solid white;
+    color: #231F20;
 }
