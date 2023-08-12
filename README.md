@@ -1,7 +1,3 @@
-Thank you for providing a clear project structure. I'll craft the README based on the structure you provided without making any assumptions.
-
----
-
 # React Portfolio
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
