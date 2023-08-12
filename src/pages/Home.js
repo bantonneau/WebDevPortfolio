@@ -59,15 +59,15 @@ function Home() {
                     <h1>Employment History</h1>
                     <ul>
                         <li>
-                            <p><strong className='strongBlue'>Kohl's Corporation</strong><strong> \ March 2022-Present</strong></p>
+                            <p><strong>Kohl's Corporation</strong><strong> \ March 2022-Present</strong></p>
                             <p>Assistant Designer</p>
                         </li>
                         <li>
-                            <p><strong className='strongBlue'>Colony Brands, Inc.</strong><strong> \ Aug 2021 - Jan 2022</strong></p>
+                            <p><strong>Colony Brands, Inc.</strong><strong> \ Aug 2021 - Jan 2022</strong></p>
                             <p>Technical Design Intern</p>
                         </li>
                         <li>
-                            <p><strong className='strongBlue'>UW-Madison, DoIT</strong><strong> \ Sep 2019 - May 2021</strong></p>
+                            <p><strong>UW-Madison, DoIT</strong><strong> \ Sep 2019 - May 2021</strong></p>
                             <p>Information Technology Support Specialist</p>
                         </li>
                     </ul>

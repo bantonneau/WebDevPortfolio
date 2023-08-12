@@ -21,6 +21,14 @@
     border-radius: 20px;
     border: 2px solid #00D7D7;
     font-weight: 700;
+    transition: border 0.3s, background-color 0.3s;
+    cursor: pointer;
+}
+
+.projButton:hover {
+    color: #231F20;
+    border: 2px solid white;
+    background-color: white;
 }
 
 .GHprojIcon {
@@ -31,6 +39,17 @@
     display: inline-block;
     margin-left: 10px;
 }
+
+.GHprojBorder {
+    stroke:#00D7D7;
+    fill:#231F20;
+    transition: stroke 0.3s;
+}
+
+.GHprojIcon:hover .GHprojBorder {
+    stroke: white;
+}
+
 
 .projectBullets {
     padding-left: 20px;

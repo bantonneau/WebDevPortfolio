@@ -7,7 +7,7 @@ import { GitHub } from '@mui/icons-material'
 function Circle() {
   return (
       <svg width="40" height="40">
-          <circle cx="20" cy="20.3" r="16" fill="#231F20" stroke='white' strokeWidth='3px'/>
+          <circle className='GHprojBorder' cx="20" cy="20.3" r="16" strokeWidth='3px'/>
       </svg>
   );
 }
@@ -16,7 +16,7 @@ function Projects({ projectRefs }) {
   return (
     <section className='projects row'>
       <section>
-        <h1>Web Development experience</h1>
+        <h1>Web Development Experience</h1>
       </section>
       <ul>
         {projectList.map((project, index) => (
