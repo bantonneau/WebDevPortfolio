@@ -57,18 +57,18 @@ function Navbar() {
                     </Link>
                 </li>
                 <section className='navButtons'>
-                    <li><Link className='buttonFill'>RESUME</Link></li>
-                    <li><Link className='buttonLink'>CONTACT</Link></li>
+                    <li><Link to='https://docs.google.com/document/d/1Vy3Ml8rUHEZsPJZyko8ARV943mSdmIpp96yR5XlSKPk/edit?usp=sharing' target='_blank' className='buttonFill'>RESUME</Link></li>
+                    <li><Link to='mailto:benantonn@gmail.com' target='_blank' className='buttonLink'>CONTACT</Link></li>
                 </section>
                 <section className='navButtonsIcons'>
                     <li>
-                        <Link to="https://www.linkedin.com/in/benantonn/" target='_blank' className='EMAILnavIcon'>
+                        <Link to="mailto:benantonn@gmail.com" target='_blank' className='EMAILnavIcon'>
                             <Email className='navIcon' />
                             <EmailOutline />
                         </Link>
                     </li>
                     <li>
-                        <Link to="https://www.linkedin.com/in/benantonn/" target='_blank' className='RESnavIcon'>
+                        <Link to="https://docs.google.com/document/d/1Vy3Ml8rUHEZsPJZyko8ARV943mSdmIpp96yR5XlSKPk/edit?usp=sharing" target='_blank' className='RESnavIcon'>
                             <Article className='navIcon' />
                             <ResumeOutline />
                         </Link>
