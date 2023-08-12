@@ -1,70 +1,69 @@
-# Getting Started with Create React App
+# React Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+This project showcases an individual portfolio website developed using React. The portfolio is deployed and can be accessed at [www.AntonneauWebDev.com](http://www.AntonneauWebDev.com).
 
-### `npm start`
+## Table of Contents
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [Key Features & Code Explanation](#key-features-&-code-explanation)
+4. [Project Structure](#project-structure)
+5. [License](#license)
+6. [Contact](#contact)
+7. [Acknowledgments](#Acknowledgments)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To install and run this application locally:
 
-### `npm test`
+1. Clone the repository to your local machine.
+2. Navigate to the root directory of the cloned repository in your terminal.
+3. Run `npm install` to install necessary dependencies.
+4. Execute `npm start` to start the application on your local server.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
 
-### `npm run build`
+Visit the deployed application at [www.AntonneauWebDev.com](http://www.AntonneauWebDev.com). If running locally, access the application at `http://localhost:3000` after executing `npm start`.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Key Features & Code Explanation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `Navbar.js`
+Description: This component represents the navigation bar. It includes the site's logo, the user's name, and links to various social media profiles like LinkedIn and GitHub. There are also buttons linking to the user's resume and contact information. For the icons, this component uses a combination of icons from @mui/icons-material and custom SVG icons.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `Home.js`
+The Home component serves as the main page. It contains an introductory section, a skills section, an experience section (with projects and education), and the user's employment history. The component also has functionality for smooth scrolling to specific projects.
 
-### `npm run eject`
+### `Projects.js`
+Description: This component showcases a list of web development projects. Each project has a title, a GitHub link, optional demo and live links, a list of features, and the technologies used. The projects are fetched from ProjectList from the helpers directory. The component also uses SVG graphics for displaying icons.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### `Skills.js`
+Description: The Skills component displays both technical and professional skills. The technical skills seem to be web development-focused, while the professional skills focus on soft skills. Each skill is displayed within an unordered list.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Project Structure
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- `.gitignore` - Specifies files/directories to be ignored in git.
+- `public/` - Contains public assets like favicons and manifests.
+- `src/` - The main source directory.
+  - `assets/` - Contains assets like the logo.
+  - `components/` - Houses the primary React components (`Navbar.js`, `Footer.js`, `Projects.js`, `Skills.js`).
+  - `helpers/` - Contains helper files like `ProjectList.js`.
+  - `pages/` - Includes main pages of the website (`Home.js`, `Resume.js`).
+  - `styles/` - Contains CSS stylesheets for the various components and global styling.
+  - `App.js` - The main React component.
+  - `index.js` - The primary entry point of the application.
+  
+## License
+This project is licensed under the MIT License.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Contact
+[Bennett Antonneau](mailto:benantonn@gmail.com)
 
-## Learn More
+## Acknowledgments
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **React**: A JavaScript library for building user interfaces. [Website](https://reactjs.org/)
+- **react-router-dom**: The official React routing library, used for creating navigation components. [GitHub Repository](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom)
+- **@mui/icons-material**: A comprehensive set of Material Design icons from Material-UI, allowing easy inclusion of high-quality icons in React apps. [Documentation](https://mui.com/components/icons/)
+- **navigator.userAgent**: A property that provides information about the browser's user-agent string. This isn't a package, but it's a Web API used in the code to detect Safari. [MDN Web Docs](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/userAgent)
