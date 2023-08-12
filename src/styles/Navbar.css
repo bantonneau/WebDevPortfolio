@@ -152,6 +152,15 @@
     transition: stroke 0.3s;
 }
 
+.iconBorder {
+    stroke-width: 2px; 
+}
+
+
+.iconBorder.safari {
+    stroke-width: 3px;    
+}
+
 @media (max-width: 725px) {
     .navbar {
         flex-direction: column;
