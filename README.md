@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+# React Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+This project showcases an individual portfolio website developed using React and other technologies. The portfolio is deployed and can be accessed at [www.AntonneauWebDev.com](http://www.AntonneauWebDev.com).
 
-### `npm start`
+## Table of Contents
+1. [Installation](#installation)
+2. [Usage](#usage)
+3. [Key Features & Code Explanation](#key-features-&-code-explanation)
+4. [Project Structure](#project-structure)
+5. [License](#license)
+6. [Contact](#contact)
+7. [Acknowledgments](#Acknowledgments)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Installation
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+To install and run this application locally, follow these steps:
 
-### `npm test`
+1. Clone the repository to your local machine using `git clone https://github.com/your-username/your-repository.git`.
+2. Navigate to the root directory of the cloned repository in your terminal and run `npm install` to install the necessary dependencies.
+3. Once the installations are completed, run `npm start` to start the application on your local server.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Usage
 
-### `npm run build`
+Visit the deployed application at [www.AntonneauWebDev.com](http://www.AntonneauWebDev.com). If running locally, the application will be accessible at `http://localhost:3000` after executing the `npm start` command.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Key Features & Code Explanation
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### `HomeScreen.js`
+Displays the home content and features navigation components for an improved user experience.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### `ProductScreen.js`
+Detailed product information is presented here, complete with images, pricing, and descriptions.
 
-### `npm run eject`
+### `CartScreen.js`
+Allows users to review their cart items and proceed to the checkout process.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### `PlaceOrderScreen.js`
+Finalizes the order details, showcasing a summary of the products, shipping details, and total price.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### `Header.js`
+Consistent navigation feature, ensuring easy access to main pages and cart.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### `Footer.js`
+Displays essential footer content, including links and copyrights.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Project Structure
 
-## Learn More
+- `screens/` - Contains all main views of the application like `HomeScreen.js`, `ProductScreen.js`, `CartScreen.js`, and `PlaceOrderScreen.js`.
+- `components/` - Houses reusable React components like `Footer.js` and `Header.js`.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## License
+This project is licensed under the MIT License.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contact
+[Bennett Antonneau](mailto:benantonn@gmail.com)
 
-### Code Splitting
+## Acknowledgments
+- [React](https://reactjs.org/)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+---
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+This version emphasizes the features and structure based on the code snippets you shared.
