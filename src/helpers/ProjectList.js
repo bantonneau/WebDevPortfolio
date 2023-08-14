@@ -7,7 +7,6 @@ export const projectList = [
             "Utilized Node.js and Express.js to handle back-end operations, Handlebars.js for templating, and MySQL with Sequelize ORM for database management, demonstrating a strong understanding of full-stack development.",
             "Implemented user authentication using express-session and cookies, increasing the security and personalization of the application.",
             "Integrated the application with Heroku and JawsDB for seamless deployment and database management, showcasing my abilities in DevOps.",
-            "Enhanced user experience by developing a feature for saving jobs to user profiles and initiated the development of a job filter for experience level, job type (remote vs. in-person), and salary range.",
             "Managed sensitive data and API keys securely through the use of environment variables, ensuring the safety of user data and project integrity.",
                  ],
         technologies: "JavaScript, Node.js, Express.js, Handlebars.js, MySQL, Sequelize ORM, Express-Session, Heroku, JawsDB, Agile Development",
@@ -18,14 +17,12 @@ export const projectList = [
         name: "React Portfolio",
         description: "A portfolio website showcasing my projects and skills, developed using React and Material UI. The portfolio is interactive, responsive, and has a clean, intuitive interface.",
         features: [
-            "Developed a personal portfolio website using React, demonstrating proficiency in modern web development practices and component-based architecture.",
-            "Incorporated react-router-dom for seamless navigation between different components without a page reload, enhancing user experience.",
-            "Employed Material UI for designing the user interface, demonstrating an ability to work with modern UI libraries.",
-            "Created a dynamic projects section where each project is represented by a ProjectItem component, showcasing the ability to work with dynamic data and rendering components based on that data.",
-            "Used hooks such as useState and useEffect in components like Navbar.js to control component states and lifecycle events, showcasing a deep understanding of the React Hooks system.",
-            "Ensured that the website is responsive and looks consistent across different devices and screen sizes.",
-            "Deployed the website for public access, demonstrating experience in website deployment and management."
-        ],
+            "Architected a dynamic personal portfolio website leveraging React, emphasizing adeptness in modern frontend web development and component-based architectures.",
+            "Harnessed the power of React's `useState` and `useEffect` hooks, underscoring a comprehensive understanding of state management and React's lifecycle.",
+            "Prioritized responsive design, ensuring the portfolio's impeccable display across a myriad of devices, reflecting attention to detail and UI/UX considerations.",
+            "Structured a vibrant `Projects.js` section that dynamically renders projects, highlighting my expertise in handling dynamic data and component rendering.",
+            "Successfully deployed the website, exemplifying skills in deployment, website maintenance, and ensuring public accessibility."
+        ],               
         technologies: "React, react-router-dom, Material UI, Responsive Design",
         github: 'https://github.com/bantonneau/webdevportfolio'
     },    
