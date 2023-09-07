@@ -57,7 +57,7 @@ function Navbar() {
                     </Link>
                 </li>
                 <section className='navButtons'>
-                    <li><Link to='https://drive.google.com/file/d/1TLGfnrZiFbWsPKqPDehDccnX05_9p-L8/view?usp=sharing' target='_blank' className='buttonFill'>RESUME</Link></li>
+                    <li><Link to='https://drive.google.com/file/d/1BKWRDyi-xDUi4n666lM-7RPKOlRZZCCP/view?usp=sharing' target='_blank' className='buttonFill'>RESUME</Link></li>
                     <li><Link to='mailto:benantonn@gmail.com' target='_blank' className='buttonLink'>CONTACT</Link></li>
                 </section>
                 <section className='navButtonsIcons'>
@@ -68,7 +68,7 @@ function Navbar() {
                         </Link>
                     </li>
                     <li>
-                        <Link to="https://drive.google.com/file/d/1TLGfnrZiFbWsPKqPDehDccnX05_9p-L8/view?usp=sharing" target='_blank' className='RESnavIcon'>
+                        <Link to="https://drive.google.com/file/d/1BKWRDyi-xDUi4n666lM-7RPKOlRZZCCP/view?usp=sharing" target='_blank' className='RESnavIcon'>
                             <Article className='navIcon' />
                             <ResumeOutline />
                         </Link>
