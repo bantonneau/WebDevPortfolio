@@ -23,8 +23,8 @@ function Home() {
     return (
         <main>
             <section className='intro row'>
-                <h1>Full Stack Web Developer</h1>
-                <p>Hi there, I'm Ben! I'm a Full Stack Developer with a strong understanding of both front-end and back-end technologies. My previous experience in graphic and apparel design gives me a unique set of skills with the Adobe Creative Suite. When I'm not building websites you will find me lifting weights, designing clothes, or working on unity games with my friends.</p>
+                <h1>Full Stack Developer</h1>
+                <p>Hi there, I'm Ben! I'm a Full Stack Developer with a strong understanding of both front-end and back-end technologies. My previous experience in graphic and apparel design gives me a unique set of skills with the Adobe Creative Suite. When I'm not coding you will find me lifting weights, designing clothes, or working on unity games with my friends.</p>
             </section>
             <Skills />
             <section className='experience row'>

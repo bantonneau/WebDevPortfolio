@@ -16,7 +16,7 @@ function Projects({ projectRefs }) {
   return (
     <section className='projects row'>
       <section>
-        <h1>Web Development Experience</h1>
+        <h1>Development Experience</h1>
       </section>
       <ul>
         {projectList.map((project, index) => (
