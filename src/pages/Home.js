@@ -13,11 +13,11 @@ function Home() {
     useEffect(() => {
         setProjectRefs(prevRefs => Array(projectList.length).fill().map((_, i) => prevRefs[i] || createRef()));
     }, []);
-    
+
     const scrollToProject = (projectIndex) => {
         projectRefs[projectIndex].current.scrollIntoView({ behavior: 'smooth' });
     }
-    
+
 
 
     return (
@@ -58,6 +58,14 @@ function Home() {
                     </ul>
                     <h1>Employment History</h1>
                     <ul>
+                        <li>
+                            <p><strong>Grassburger</strong><strong> \ Sep 2023-Present</strong></p>
+                            <p>Freelance Web Developer</p>
+                        </li>
+                        <li>
+                            <p><strong>Pitch Labs</strong><strong> \ Aug 2023-Present</strong></p>
+                            <p>Web Developer</p>
+                        </li>
                         <li>
                             <p><strong>Kohl's Corporation</strong><strong> \ March 2022-Present</strong></p>
                             <p>Assistant Designer</p>

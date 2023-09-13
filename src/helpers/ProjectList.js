@@ -1,5 +1,18 @@
 export const projectList = [
     {
+        name: "Common Cents",
+        description: "Personal finanace and budgeting webapp built on the 50-30-20 principle of budgeting",
+        features: [
+            "Created a personal finance app built on the 50-30-20 principle of budgeting for an intuitive and low-effort approach to tracking monthly spending vs. income that requires no prior financial knowledge.",
+            "Utilized React for the UI and routing, Express.js and Node.js for the server-side logic, GraphQL for CRUD operations, and MongoDB for storage of user, expense, and income data.",
+            "Through JWT authentication and secure password hashing with BCrypt, users can securely log in, and have their financial data stored safely.",
+            "With integrated charting library Chart.js, users can view their spending habits via dynamic pie and bar charts. This assists in quickly identifying high-expenditure categories."
+                 ],
+        technologies: "React.js, MongoDB, GraphQL, Node.js, Express.js, Json Web Token, BCrypt, Heroku, AtlasDB, Agile Development",
+        github: "https://github.com/cbigham25/common-cents",
+        live: "https://common-cents-bootcamp-fc6fba95f1fb.herokuapp.com/",
+    },
+    {
         name: "Job Board",
         description: "A secure job board application featuring comprehensive listings, secure user authentication, and personalized job saving capabilities.",
         features: [
