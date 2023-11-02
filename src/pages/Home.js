@@ -4,6 +4,8 @@ import Skills from '../components/Skills'
 import Projects from '../components/Projects'
 import { projectList } from "../helpers/ProjectList";
 import { Link } from 'react-router-dom';
+import Pic from '../assets/PicBlob.png'
+import Blob from '../assets/Blob.png'
 
 
 function Home() {
@@ -23,8 +25,15 @@ function Home() {
     return (
         <main>
             <section className='intro row'>
-                <h1>Full Stack Developer</h1>
-                <p>Hi there, I'm Ben! I'm a Full Stack Developer with a strong understanding of both front-end and back-end technologies. My previous experience in graphic and apparel design gives me a unique set of skills with the Adobe Creative Suite. When I'm not coding you will find me lifting weights, designing clothes, or working on unity games with my friends.</p>
+                <div className='heroText'>
+                    <h1>Full Stack Developer</h1>
+                    <p>Hi there, I'm Ben! I'm a Full Stack Developer with a strong understanding of both front-end and back-end technologies. My previous experience in graphic and apparel design gives me a unique set of skills with the Adobe Creative Suite. When I'm not coding you will find me lifting weights, designing clothes, or working on unity games with my friends.</p>
+                </div>
+                <div className='heroPic'>
+                    <img src={Pic} alt="Portrait of Bennett" className='navbarImage' />
+                    <img src={Blob} alt="Decorative colorful blob background" className='navbarImage' />
+                </div>
+
             </section>
             <Skills />
             <section className='experience row'>
@@ -53,17 +62,13 @@ function Home() {
                         </li>
                         <li>
                             <p><strong>University of Minnesota-Twin Cities - Minneapolis, MN</strong></p>
-                            <p>Full Stack Bootcamp - Portfolio: AntonneauWebDev.com</p>
+                            <p>Full Stack Bootcamp</p>
                         </li>
                     </ul>
                     <h1>Employment History</h1>
                     <ul>
                         <li>
-                            <p><strong>Grassburger</strong><strong> \ Sep 2023-Present</strong></p>
-                            <p>Freelance Web Developer</p>
-                        </li>
-                        <li>
-                            <p><strong>Pitch Labs</strong><strong> \ Aug 2023-Present</strong></p>
+                            <p><strong>Pitch Labs</strong><strong> \ Jun 2023-Present</strong></p>
                             <p>Web Developer</p>
                         </li>
                         <li>
