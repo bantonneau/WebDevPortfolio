@@ -11,6 +11,55 @@ li {
 
 }
 
+.hero {
+    display: flex;
+}
+
+.heroText {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.heroPic {
+    padding-top: 50px;
+    margin-left: 20px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    place-items: center;
+}
+
+.heroPic img {
+    grid-area: 1 / 1;
+}
+
+.heroPicBen {
+    /* -webkit-filter: drop-shadow(5px 5px 5px #222);
+    filter: drop-shadow(5px 5px 5px #222); */
+    transform: translatey(0px);
+    animation: float 6s ease-in-out infinite;
+
+    img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@keyframes float {
+    0% {
+        transform: translatey(5px) translatex(5px);
+    }
+
+    50% {
+        transform: translatey(-5px) translatex(-5px);
+    }
+
+    100% {
+        transform: translatey(5px) translatex(5px);
+    }
+}
+
 .experience {
     display: flex;
 }

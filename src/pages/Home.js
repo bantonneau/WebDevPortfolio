@@ -24,14 +24,14 @@ function Home() {
 
     return (
         <main>
-            <section className='intro row'>
+            <section className='hero row'>
                 <div className='heroText'>
                     <h1>Full Stack Developer</h1>
                     <p>Hi there, I'm Ben! I'm a Full Stack Developer with a strong understanding of both front-end and back-end technologies. My previous experience in graphic and apparel design gives me a unique set of skills with the Adobe Creative Suite. When I'm not coding you will find me lifting weights, designing clothes, or working on unity games with my friends.</p>
                 </div>
                 <div className='heroPic'>
-                    <img src={Pic} alt="Portrait of Bennett" className='navbarImage' />
-                    <img src={Blob} alt="Decorative colorful blob background" className='navbarImage' />
+                    <img src={Blob} alt="Decorative colorful blob background" className='heroPicBlob' />
+                    <img src={Pic} alt="Portrait of Bennett" className='heroPicBen' />
                 </div>
 
             </section>
