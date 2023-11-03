@@ -58,11 +58,11 @@ function Home() {
                     <ul>
                         <li>
                             <p><strong>University of Wisconsin-Madison - Madison, WI</strong></p>
-                            <p>Retailing & Consumer Behavior - Bachelor of Science</p>
+                            <p>Bachelor of Science</p>
                         </li>
                         <li>
                             <p><strong>University of Minnesota-Twin Cities - Minneapolis, MN</strong></p>
-                            <p>Full Stack Bootcamp</p>
+                            <p>Full Stack Development Bootcamp</p>
                         </li>
                     </ul>
                     <h1>Employment History</h1>

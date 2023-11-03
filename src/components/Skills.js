@@ -11,11 +11,7 @@ function Skills() {
             </div>
             <div className='skillsFrameworks skillsTile'>
                 <h2>Frameworks and Libraries</h2>
-                <span className='skillListItem'>Spring</span> 
-                <span className='skillListItem'>React</span>  
-                <span className='skillListItem'>Node.js</span> 
-                <span className='skillListItem'>Express.js</span>  
-                    {/* React, Node.js, Express.js, Mongoose, Next.js, Sequelize, Tailwind</p> */}
+                <p>Spring, React, Node.js, Express.js, Mongoose, Next.js, Sequelize, Tailwind</p>
             </div>
             <div className='skillsTools skillsTile'>
                 <h2>Tools, Platforms, and Concepts</h2>
