@@ -2,6 +2,41 @@
     background-color: #F1F2F2;
 }
 
+.projectPicContainer {
+    width: 300px;
+    position: relative;
+  }
+
+  .projectPicContainer:after {
+    background: #00D7D7;
+    opacity: 0.3;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    content: ' ';
+    -webkit-transition: all 0.9s ease-in-out;
+    -moz-transition: all 0.9s ease-in-out;
+    -o-transition: all 0.9s ease-in-out;
+    -ms-transition: all 0.9s ease-in-out;
+    transition: all 0.9s ease-in-out;
+  }
+
+  .projectPicContainer:hover:after {
+    opacity: 0;
+  }
+  
+  .projectPic {
+    filter: grayscale(1);
+    transition: all 0.9s ease-in-out;
+  }
+
+  .projectPic:hover {
+    filter: grayscale(0);
+  }
+
+
 .projectTitle {
     display: flex;
     align-items: center;
