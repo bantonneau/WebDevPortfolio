@@ -1,17 +1,21 @@
 .skills {
    background-color: #F1F2F2;
+   display: flex;
+   padding-top: 50px;
 }
 
-.skillsContainer {
-    display: flex;
-    flex-wrap: wrap;
+.skillsTile {
+    background-color: white;
+    border-radius: 8px;
+    flex: 1;
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-.skillTile {
-    display: inline-block;
-    padding: 5px 15px;
-    margin: 5px;
-    text-decoration: none;
-    border-radius: 20px;
-    border: 2px solid #49596A;
+.skillListItem {
+    padding: 5px;
 }
+
+

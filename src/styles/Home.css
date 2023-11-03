@@ -38,7 +38,7 @@ li {
     /* -webkit-filter: drop-shadow(5px 5px 5px #222);
     filter: drop-shadow(5px 5px 5px #222); */
     transform: translatey(0px);
-    animation: float 6s ease-in-out infinite;
+    animation: float 4s ease-in-out infinite;
 
     img {
         width: 100%;
