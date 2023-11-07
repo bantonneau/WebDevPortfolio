@@ -89,3 +89,23 @@
 .projectBullets {
     padding-left: 20px;
 }
+
+
+
+
+
+.projectTitleContainer {
+    display: flex;
+}
+
+.projectTitleContainer div {
+    flex: 1;
+}
+
+.projectTitleBlock {
+    display: flex;
+}
+
+.projectTitleBlock h1 {
+    margin-left: auto;
+}

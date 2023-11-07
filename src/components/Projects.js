@@ -19,8 +19,15 @@ function Projects({ projectRefs }) {
       <section>
         <h1>Development Experience</h1>
       </section>
-      <div className='projectPicContainer'>
-        <img src={commonCents} alt="Featured image of the 'Common Cents' project" className='projectPic' />
+      <div className='projectTitleContainer'>
+        <div className='projectPicContainer'>
+          <img src={commonCents} alt="Featured image of the 'Common Cents' project" className='projectPic' />
+        </div>
+        <div className='projectContentBlock'>
+          <div className='projectTitleBlock'>
+            <h1>Common Cents</h1>
+          </div>
+        </div>
       </div>
 
       <ul>
