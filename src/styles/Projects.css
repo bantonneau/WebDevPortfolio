@@ -16,11 +16,11 @@
     top: 0;
     bottom: 0;
     content: ' ';
-    -webkit-transition: all 0.9s ease-in-out;
-    -moz-transition: all 0.9s ease-in-out;
-    -o-transition: all 0.9s ease-in-out;
-    -ms-transition: all 0.9s ease-in-out;
-    transition: all 0.9s ease-in-out;
+    -webkit-transition: all 0.4s ease-in-out;
+    -moz-transition: all 0.4s ease-in-out;
+    -o-transition: all 0.4s ease-in-out;
+    -ms-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
   }
 
   .projectPicContainer:hover:after {
@@ -29,10 +29,10 @@
   
   .projectPic {
     filter: grayscale(1);
-    transition: all 0.9s ease-in-out;
+    transition: all 0.4s ease-in-out;
   }
 
-  .projectPic:hover {
+  .projectPicContainer:hover .projectPic {
     filter: grayscale(0);
   }
 
@@ -108,4 +108,22 @@
 
 .projectTitleBlock h1 {
     margin-left: auto;
+    padding-top: 0;
+}
+
+.projectDescriptionBlock {
+    background-color: #231F20;
+    color: white;
+    padding: 20px;
+    position: relative;
+    z-index: 110;
+    margin-left: -50px;
+}
+
+.projectDescriptionBlock p {
+    font-weight: 400;
+}
+
+.projectPicContainer {
+    z-index: 100;
 }

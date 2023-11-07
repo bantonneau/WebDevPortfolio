@@ -25,7 +25,18 @@ function Projects({ projectRefs }) {
         </div>
         <div className='projectContentBlock'>
           <div className='projectTitleBlock'>
+            <div className='projectButtons'>
+              <Link to="www.google.com" target='_blank' className='GHprojIcon'>
+                <GitHub className='githubIcon' />
+                <Circle />
+              </Link>
+              {"www.google.com" ? <button className='projButton' onClick={() => window.open("www.google.com", '_blank')}>DEMO</button> : ""}
+              {"www.google.com" ? <button className='projButton' onClick={() => window.open("www.google.com", '_blank')}>LIVE</button> : ""}
+            </div>
             <h1>Common Cents</h1>
+          </div>
+          <div className='projectDescriptionBlock'>
+            <p>A personal budgeting app utilizing the 50-30-20 principle - a simple approach to budgeting where 50 percent of your income goes to needs, 30 percent goes to wants, and 20 percent goes to debt and taxes.</p>
           </div>
         </div>
       </div>
