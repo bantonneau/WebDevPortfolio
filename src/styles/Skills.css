@@ -10,8 +10,12 @@
     flex: 1;
     text-align: center;
     margin: 10px;
-    padding: 10px;
+    padding: 30px 10px;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.skillsTile h2 {
+    padding-top: 10px;
 }
 
 .skillListItem {
