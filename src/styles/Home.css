@@ -19,6 +19,18 @@ li {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    flex: 2;
+    opacity: 0;
+    animation: slideDown 0.5s ease-out forwards;
+    animation-delay: 1.2s;
+}
+
+.heroText h1 {
+    padding-top: 0;
+}
+
+.heroAccentText {
+    
 }
 
 .heroPic {
@@ -28,6 +40,10 @@ li {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     place-items: center;
+    flex: 1;
+    opacity: 0;
+    animation: slideDown 0.5s ease-out forwards;
+    animation-delay: 1.4s;
 }
 
 .heroPic img {

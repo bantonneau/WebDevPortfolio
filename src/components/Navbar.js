@@ -41,7 +41,6 @@ function Navbar() {
         <nav className='navbar'>
             <section className='navbarLogo'>
                 <img src={Logo} alt="Company Logo" className='navbarImage' />
-                <h1 href='/' className=''>Bennett Antonneau</h1>
             </section>
             <ul className='navLinks'>
                 <li>

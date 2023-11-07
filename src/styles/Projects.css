@@ -104,11 +104,33 @@
 
 .projectTitleBlock {
     display: flex;
+    flex-direction: column;
+    margin-bottom: 2vh;
 }
 
 .projectTitleBlock h1 {
     margin-left: auto;
     padding-top: 0;
+}
+
+.projectSkillsBlock {
+    display: flex;
+    justify-content: end;
+}
+
+.projectSkillsBlock div {
+    color: white;
+    border: 1px solid #00D7D7;
+    background-color: #00D7D7;
+    padding: 4px 10px; 
+    display: inline-block; 
+    margin: 5px; 
+    border-radius: 5px; 
+    font-size: 0.9em; 
+    white-space: nowrap;
+    text-align: center;
+    width: fit-content;
+    flex: 0;
 }
 
 .projectDescriptionBlock {

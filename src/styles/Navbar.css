@@ -1,6 +1,6 @@
 @keyframes slideDown {
     from {
-      transform: translateY(-100%); /* Start from above the top of the page */
+      transform: translateY(-25%); /* Start from above the top of the page */
       opacity: 0; /* Optional: Start from transparent */
     }
     to {
