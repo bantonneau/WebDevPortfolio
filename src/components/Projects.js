@@ -2,8 +2,9 @@ import React from 'react'
 import '../styles/Projects.css'
 import { projectList } from "../helpers/ProjectList";
 import { Link } from 'react-router-dom';
-import { GitHub } from '@mui/icons-material'
+import { GitHub, Launch } from '@mui/icons-material'
 import commonCents from '../assets/projectPics/commonCents.png'
+import IconGitHub from '../assets/icons/github';
 
 function Circle() {
   return (
@@ -36,6 +37,10 @@ function Projects({ projectRefs }) {
           </div>
           <div className='projectDescriptionBlock'>
             <p>A personal budgeting app utilizing the 50-30-20 principle - a simple approach to budgeting where 50 percent of your income goes to needs, 30 percent goes to wants, and 20 percent goes to debt and taxes.</p>
+            <div className='projectIconBlock'>
+              <IconGitHub className='projectIcon' />
+              <Launch className='projectIcon' />
+            </div>
           </div>
         </div>
       </div>

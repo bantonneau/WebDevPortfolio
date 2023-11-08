@@ -98,9 +98,9 @@
     display: flex;
 }
 
-.projectContainer div {
+/* .projectContainer div {
     flex: 1;
-}
+} */
 
 .projectTitleBlock {
     display: flex;
@@ -111,6 +111,7 @@
 .projectTitleBlock h1 {
     margin-left: auto;
     padding-top: 0;
+    margin-bottom: 10px;
 }
 
 .projectSkillsBlock {
@@ -140,6 +141,7 @@
     position: relative;
     z-index: 110;
     margin-left: -50px;
+    text-align: end;
 }
 
 .projectDescriptionBlock p {
@@ -148,6 +150,19 @@
 
 .projectPicContainer {
     z-index: 100;
+    flex: 3;
+    flex-shrink: 0;
+}
+
+.projectContentBlock {
+    flex: 1;
+}
+
+
+.projectIcon {
+    color: white;
+    height: 20px;
+    margin: 5px;
 }
 
 @media screen and (max-width: 1175px) {
