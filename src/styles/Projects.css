@@ -94,11 +94,11 @@
 
 
 
-.projectTitleContainer {
+.projectContainer {
     display: flex;
 }
 
-.projectTitleContainer div {
+.projectContainer div {
     flex: 1;
 }
 
@@ -126,7 +126,7 @@
     display: inline-block; 
     margin: 5px; 
     border-radius: 5px; 
-    font-size: 0.9em; 
+    font-size: 0.8em; 
     white-space: nowrap;
     text-align: center;
     width: fit-content;
@@ -148,4 +148,54 @@
 
 .projectPicContainer {
     z-index: 100;
+}
+
+@media screen and (max-width: 1175px) {
+    .projectSkillsBlock div {
+        font-size: 0.7em; 
+
+    }
+
+    .projectDescriptionBlock p {
+        font-size: 0.8em; 
+
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .projectPicContainer {
+        display: none;
+    }
+
+    .projectContentBlock {
+        background-image: url("../assets/projectPics/commonCentsBlue.png");
+        background-size: cover;
+    }
+
+    .projectDescriptionBlock {
+        background-color: transparent;
+        color: white;
+        padding-top: 0;
+        position: relative;
+        z-index: 110;
+        margin-left: 5vw;
+        text-align: end;
+    }
+
+    .projectTitleBlock h1 {
+        color: white;
+        padding: 20px 20px 0 0;
+        margin-bottom: 0;
+    }
+
+    .projectSkillsBlock {
+        display: flex;
+        justify-content: end;
+        padding-right: 20px;
+    }
+    
+    .projectSkillsBlock div {
+        background-color: transparent;
+        font-size: 0.6em; 
+    }
 }

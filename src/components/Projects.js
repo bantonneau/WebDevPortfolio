@@ -19,7 +19,7 @@ function Projects({ projectRefs }) {
       <section>
         <h1>Development Experience</h1>
       </section>
-      <div className='projectTitleContainer'>
+      <div className='projectContainer'>
         <div className='projectPicContainer'>
           <img src={commonCents} alt="Featured image of the 'Common Cents' project" className='projectPic' />
         </div>
