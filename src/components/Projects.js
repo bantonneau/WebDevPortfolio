@@ -3,8 +3,10 @@ import '../styles/Projects.css'
 import { projectList } from "../helpers/ProjectList";
 import { Link } from 'react-router-dom';
 import { GitHub, Launch } from '@mui/icons-material'
-import commonCents from '../assets/projectPics/commonCents.png'
 import IconGitHub from '../assets/icons/github';
+import commonCents from '../assets/projectPics/commonCents.png'
+import jobMode from '../assets/projectPics/jobMode.png'
+
 
 function Circle() {
   return (
@@ -60,7 +62,7 @@ function Projects({ projectRefs }) {
             </div>
           </div>
           <div className='projectDescriptionBlockB'>
-            <p>A personal budgeting app utilizing the 50-30-20 principle - a simple approach to budgeting where 50 percent of your income goes to needs, 30 percent goes to wants, and 20 percent goes to debt and taxes.</p>
+            <p>A full stack job board application that connects job seekers to opportunities. Users can browse and apply to availible jobs. If you aren't ready to apply but find a job you like, you can bookmark listings to come back to later.</p>
             <div className='projectIconBlock'>
               <IconGitHub className='projectIcon' />
               <Launch className='projectIcon' />
@@ -68,7 +70,7 @@ function Projects({ projectRefs }) {
           </div>
         </div>
         <div className='projectPicContainer'>
-          <img src={commonCents} alt="Featured image of the 'Common Cents' project" className='projectPic' />
+          <img src={jobMode} alt="Featured image of the 'Job Mode' project" className='projectPic' />
         </div>
       </section>
 
