@@ -96,11 +96,8 @@
 
 .projectContainer {
     display: flex;
+    margin: 50px 0;
 }
-
-/* .projectContainer div {
-    flex: 1;
-} */
 
 .projectTitleBlock {
     display: flex;
@@ -114,12 +111,47 @@
     margin-bottom: 10px;
 }
 
+.projectTitleBlockB {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2vh;
+}
+
+.projectTitleBlockB h1 {
+    padding-top: 0;
+    margin-bottom: 10px;
+}
+
 .projectSkillsBlock {
     display: flex;
     justify-content: end;
+    margin-left: -50px;
+    z-index: 110;
 }
 
 .projectSkillsBlock div {
+    color: white;
+    border: 1px solid #00D7D7;
+    background-color: #00D7D7;
+    padding: 4px 10px; 
+    display: inline-block; 
+    margin: 5px; 
+    border-radius: 5px; 
+    font-size: 0.8em; 
+    white-space: nowrap;
+    text-align: center;
+    width: fit-content;
+    flex: 0;
+}
+
+.projectSkillsBlockB {
+    display: flex;
+    justify-content: end;
+    margin-right: -50px;
+    z-index: 110;
+}
+
+.projectSkillsBlockB div {
     color: white;
     border: 1px solid #00D7D7;
     background-color: #00D7D7;
@@ -148,6 +180,20 @@
     font-weight: 400;
 }
 
+.projectDescriptionBlockB {
+    background-color: #231F20;
+    color: white;
+    padding: 20px;
+    position: relative;
+    z-index: 110;
+    margin-right: -50px;
+    text-align: start;
+}
+
+.projectDescriptionBlockB p {
+    font-weight: 400;
+}
+
 .projectPicContainer {
     z-index: 100;
     flex: 3;
@@ -158,11 +204,14 @@
     flex: 1;
 }
 
-
 .projectIcon {
     color: white;
     height: 20px;
     margin: 5px;
+}
+
+.projectIconBlock {
+    height: 28px;
 }
 
 @media screen and (max-width: 1175px) {
@@ -172,6 +221,11 @@
     }
 
     .projectDescriptionBlock p {
+        font-size: 0.8em; 
+
+    }
+
+    .projectDescriptionBlockB p {
         font-size: 0.8em; 
 
     }
@@ -195,6 +249,16 @@
         z-index: 110;
         margin-left: 5vw;
         text-align: end;
+    }
+
+    .projectDescriptionBlockB {
+        background-color: transparent;
+        color: white;
+        padding-top: 0;
+        position: relative;
+        z-index: 110;
+        margin-right: 5vw;
+        text-align: start;
     }
 
     .projectTitleBlock h1 {

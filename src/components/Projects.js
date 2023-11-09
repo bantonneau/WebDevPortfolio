@@ -20,7 +20,8 @@ function Projects({ projectRefs }) {
       <section>
         <h1>Development Experience</h1>
       </section>
-      <div className='projectContainer'>
+
+      <section className='projectContainer'>
         <div className='projectPicContainer'>
           <img src={commonCents} alt="Featured image of the 'Common Cents' project" className='projectPic' />
         </div>
@@ -43,7 +44,33 @@ function Projects({ projectRefs }) {
             </div>
           </div>
         </div>
-      </div>
+      </section>
+
+
+      <section className='projectContainer'>
+        <div className='projectContentBlock'>
+          <div className='projectTitleBlockB'>
+            <h1>Job Mode</h1>
+            <div className='projectSkillsBlockB'>
+              <div>Handlebars.js</div>
+              <div>MySQL</div>
+              <div>GraphQL</div>
+              <div>Node.js</div>
+              <div>Express.js</div>
+            </div>
+          </div>
+          <div className='projectDescriptionBlockB'>
+            <p>A personal budgeting app utilizing the 50-30-20 principle - a simple approach to budgeting where 50 percent of your income goes to needs, 30 percent goes to wants, and 20 percent goes to debt and taxes.</p>
+            <div className='projectIconBlock'>
+              <IconGitHub className='projectIcon' />
+              <Launch className='projectIcon' />
+            </div>
+          </div>
+        </div>
+        <div className='projectPicContainer'>
+          <img src={commonCents} alt="Featured image of the 'Common Cents' project" className='projectPic' />
+        </div>
+      </section>
 
       {/* <ul>
         {projectList.map((project, index) => (
