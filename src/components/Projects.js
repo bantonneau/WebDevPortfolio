@@ -41,8 +41,12 @@ function Projects({ projectRefs }) {
           <div className='projectDescriptionBlock'>
             <p>A personal budgeting app utilizing the 50-30-20 principle - a simple approach to budgeting where 50 percent of your income goes to needs, 30 percent goes to wants, and 20 percent goes to debt and taxes.</p>
             <div className='projectIconBlock'>
-              <IconGitHub className='projectIcon' />
-              <Launch className='projectIcon' />
+            <Link to="https://github.com/cbigham25/common-cents" target='_blank'>
+                <IconGitHub className='projectIcon' />
+              </Link>
+              <Link to="https://common-cents-bootcamp-fc6fba95f1fb.herokuapp.com/" target='_blank'>
+                <Launch className='projectIcon' />
+              </Link>
             </div>
           </div>
         </div>
@@ -64,8 +68,12 @@ function Projects({ projectRefs }) {
           <div className='projectDescriptionBlockB'>
             <p>A full stack job board application that connects job seekers to opportunities. If you aren't ready to apply but find a job you like, you can bookmark listings to come back to later.</p>
             <div className='projectIconBlock'>
-              <IconGitHub className='projectIcon' />
-              <Launch className='projectIcon' />
+              <Link to="https://github.com/bantonneau/jobBoard" target='_blank'>
+                <IconGitHub className='projectIcon' />
+              </Link>
+              <Link to="https://ancient-dusk-05754-ae43192e47d1.herokuapp.com/" target='_blank'>
+                <Launch className='projectIcon' />
+              </Link>
             </div>
           </div>
         </div>
