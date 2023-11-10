@@ -13,6 +13,7 @@ li {
 
 .hero {
     display: flex;
+    padding-top: 50px;
 }
 
 .heroText {
@@ -30,11 +31,11 @@ li {
 }
 
 .heroAccentText {
-    
+    color: #00D7D7;
+    font-weight: 700;
 }
 
 .heroPic {
-    padding-top: 50px;
     margin-left: 20px;
     display: grid;
     grid-template-columns: 1fr;
@@ -48,6 +49,7 @@ li {
 
 .heroPic img {
     grid-area: 1 / 1;
+    max-height: 325px;
 }
 
 .heroPicBen {
@@ -87,6 +89,14 @@ li {
 }
 
 @media (max-width: 725px) {
+    .hero {
+        flex-direction: column;
+    }
+
+    .heroPic {
+        display: none;
+    }
+
     .experience {
         flex-direction: column;
     }

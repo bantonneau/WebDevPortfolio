@@ -34,7 +34,6 @@ function Home() {
                     <img src={Blob} alt="Decorative colorful blob background" className='heroPicBlob' />
                     <img src={Pic} alt="Portrait of Bennett" className='heroPicBen' />
                 </div>
-
             </section>
             <Skills />
             {/* <section className='experience row'>

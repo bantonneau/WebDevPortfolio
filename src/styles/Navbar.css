@@ -154,10 +154,11 @@
 .EMAILnavIcon {
     position: relative;
     width: 33px;
-    /* Match the SVG width */
     height: 27px;
-    /* Match the SVG height */
     display: inline-block;
+    opacity: 0;
+    animation: slideDown 0.5s ease-out forwards;
+    animation-delay: 0.6s;
 }
 
 .EMAILnavIcon:hover .iconBorder rect {
@@ -170,6 +171,9 @@
     width: 30x;
     height: 30px;
     display: inline-block;
+    opacity: 0;
+    animation: slideDown 0.5s ease-out forwards;
+    animation-delay: 0.8s;
 }
 
 .RESnavIcon:hover .iconBorder rect {
@@ -189,12 +193,16 @@
 @media (max-width: 725px) {
     .navbar {
         flex-direction: column;
-        height: 175px;
+        height: 150px;
     }
 
     .navbarLogo {
         margin-top: 20px;
         flex-direction: column;
+    }
+
+    .navbarImage {
+        margin: 0;
     }
 
     .navButtonsIcons {
