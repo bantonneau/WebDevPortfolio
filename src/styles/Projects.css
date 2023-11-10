@@ -245,6 +245,10 @@
 }
 
 @media screen and (max-width: 1000px) {
+    .projectContainer {
+        margin: 75px 0;
+    }
+
     .projectPicContainer {
         display: none;
     }
@@ -323,7 +327,6 @@
     }
 
     .projectSkillsBlockB div {
-
         font-size: 0.45em; 
     }
 }
