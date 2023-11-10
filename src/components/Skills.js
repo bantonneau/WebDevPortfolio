@@ -7,15 +7,15 @@ function Skills() {
         <section className='skills row'>
             <div className='skillsLanguages skillsTile'>
                 <h2>Languages</h2>
-                <p>Java, HTML/CSS, Javascript, Typescript, SQL</p>
+                <p><div>Java</div> <div>Javascript</div> <div>SQL</div> <div>HTML/CSS</div></p>
             </div>
             <div className='skillsFrameworks skillsTile'>
-                <h2>Frameworks and Libraries</h2>
-                <p>Spring, React, Node.js, Express.js, Mongoose, Next.js, Sequelize, Tailwind</p>
+                <h2>Frameworks</h2>
+                <p><div>Spring</div> <div>React.js/Next.js</div> <div>Node.js</div> <div>Express.js</div></p>
             </div>
             <div className='skillsTools skillsTile'>
-                <h2>Tools, Platforms, and Concepts</h2>
-                <p>Git, Docker, Kubernetes, RESTful APIs, Web Accessibility Standards, Azure, Agile Development, Yarn, Npm, Maven, Web Responsive Design, Vitest, Jira</p>
+                <h2>Tools</h2>
+                <p><div>Git/GitHub</div> <div>Npm</div> <div>Docker</div> <div>Kubernetes</div> <div>Jira</div></p>
             </div>
         </section>
     )

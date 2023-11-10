@@ -29,7 +29,7 @@ function Projects({ projectRefs }) {
         </div>
         <div className='projectContentBlock'>
           <div className='projectTitleBlock'>
-            <h1>Common Cents</h1>
+            <h1>01. Common Cents</h1>
             <div className='projectSkillsBlock'>
               <div>React.js</div>
               <div>MongoDB</div>
@@ -52,7 +52,7 @@ function Projects({ projectRefs }) {
       <section className='projectContainer'>
         <div className='projectContentBlock'>
           <div className='projectTitleBlockB'>
-            <h1>Job Mode</h1>
+            <h1>02. Job Mode</h1>
             <div className='projectSkillsBlockB'>
               <div>Handlebars.js</div>
               <div>MySQL</div>
@@ -62,7 +62,7 @@ function Projects({ projectRefs }) {
             </div>
           </div>
           <div className='projectDescriptionBlockB'>
-            <p>A full stack job board application that connects job seekers to opportunities. Users can browse and apply to availible jobs. If you aren't ready to apply but find a job you like, you can bookmark listings to come back to later.</p>
+            <p>A full stack job board application that connects job seekers to opportunities. If you aren't ready to apply but find a job you like, you can bookmark listings to come back to later.</p>
             <div className='projectIconBlock'>
               <IconGitHub className='projectIcon' />
               <Launch className='projectIcon' />

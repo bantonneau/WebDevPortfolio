@@ -37,7 +37,7 @@ function Home() {
 
             </section>
             <Skills />
-            <section className='experience row'>
+            {/* <section className='experience row'>
                 <section className='projectsExp'>
                     <h1>Projects</h1>
                     <ul>
@@ -87,7 +87,7 @@ function Home() {
                     </ul>
 
                 </section>
-            </section>
+            </section> */}
             <Projects projectRefs={projectRefs} />
         </main>
     )
