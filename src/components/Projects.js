@@ -19,9 +19,6 @@ function Circle() {
 function Projects({ projectRefs }) {
   return (
     <section className='projects row'>
-      <section>
-        <h1>Development Experience</h1>
-      </section>
 
       <section className='projectContainer'>
         <div className='projectPicContainer'>
@@ -29,7 +26,7 @@ function Projects({ projectRefs }) {
         </div>
         <div className='projectContentBlock'>
           <div className='projectTitleBlock'>
-            <h1>01. Common Cents</h1>
+            <h1><span className='projectTitleNumber'>01.</span> Common Cents</h1>
             <div className='projectSkillsBlock'>
               <div>React.js</div>
               <div>MongoDB</div>
@@ -56,7 +53,7 @@ function Projects({ projectRefs }) {
       <section className='projectContainer'>
         <div className='projectContentBlock'>
           <div className='projectTitleBlockB'>
-            <h1>02. Job Mode</h1>
+            <h1><span className='projectTitleNumber'>02.</span> Job Mode</h1>
             <div className='projectSkillsBlockB'>
               <div>Handlebars.js</div>
               <div>MySQL</div>

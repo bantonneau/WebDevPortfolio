@@ -122,6 +122,10 @@
     margin-bottom: 10px;
 }
 
+.projectTitleNumber {
+    color: #00D7D7;
+}
+
 .projectSkillsBlock {
     display: flex;
     justify-content: end;
@@ -130,7 +134,7 @@
 }
 
 .projectSkillsBlock div {
-    color: white;
+    color: #231F20;
     border: 1px solid #00D7D7;
     background-color: #00D7D7;
     padding: 4px 10px; 
@@ -206,14 +210,21 @@
     flex: 1;
 }
 
+
 .projectIcon {
     color: white;
     height: 20px;
     margin: 5px;
 }
 
+.projectIcon:hover {
+    transition: color 0.3s;
+    color:#00D7D7;
+}
+
 .projectIconBlock {
     height: 28px;
+    margin-top: 10px;
 }
 
 @media screen and (max-width: 1175px) {
@@ -268,6 +279,12 @@
         padding: 20px 20px 0 0;
         margin-bottom: 0;
     }
+    
+    .projectTitleBlockB h1 {
+        color: white;
+        padding: 20px 0 0 20px;
+        margin-bottom: 0;
+    }
 
     .projectSkillsBlock {
         display: flex;
@@ -276,7 +293,20 @@
     }
     
     .projectSkillsBlock div {
+        color: white;
         background-color: transparent;
-        font-size: 0.6em; 
+        font-size: 0.7em; 
+    }
+
+    .projectSkillsBlockB {
+        display: flex;
+        justify-content: start;
+        padding-left: 20px;
+    }
+    
+    .projectSkillsBlockB div {
+        color: white;
+        background-color: transparent;
+        font-size: 0.7em; 
     }
 }
