@@ -24,7 +24,7 @@ function Projects({ projectRefs }) {
         <div className='projectPicContainer'>
           <img src={commonCents} alt="Featured image of the 'Common Cents' project" className='projectPic' />
         </div>
-        <div className='projectContentBlock'>
+        <div className='projectContentBlock commonCentsProjectBlock'>
           <div className='projectTitleBlock'>
             <h1><span className='projectTitleNumber'>01.</span> Common Cents</h1>
             <div className='projectSkillsBlock'>
@@ -51,7 +51,7 @@ function Projects({ projectRefs }) {
 
 
       <section className='projectContainer'>
-        <div className='projectContentBlock'>
+        <div className='projectContentBlock jobModeProjectBlock'>
           <div className='projectTitleBlockB'>
             <h1><span className='projectTitleNumber'>02.</span> Job Mode</h1>
             <div className='projectSkillsBlockB'>

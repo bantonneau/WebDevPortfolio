@@ -249,10 +249,16 @@
         display: none;
     }
 
-    .projectContentBlock {
+    .commonCentsProjectBlock {
         background-image: url("../assets/projectPics/commonCentsBlue.png");
         background-size: cover;
     }
+
+    .jobModeProjectBlock {
+        background-image: url("../assets/projectPics/jobModeBlue.png");
+        background-size: cover;
+    }
+
 
     .projectDescriptionBlock {
         background-color: transparent;
@@ -308,5 +314,16 @@
         color: white;
         background-color: transparent;
         font-size: 0.7em; 
+    }
+}
+
+@media screen and (max-width: 530px) {
+    .projectSkillsBlock div {
+        font-size: 0.45em; 
+    }
+
+    .projectSkillsBlockB div {
+
+        font-size: 0.45em; 
     }
 }

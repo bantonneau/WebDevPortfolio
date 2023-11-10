@@ -22,4 +22,8 @@
     padding: 5px;
 }
 
-
+@media screen and (max-width: 600px) {
+ .skills {
+    flex-direction: column;
+ }
+}
