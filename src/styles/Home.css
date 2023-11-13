@@ -49,7 +49,7 @@ li {
 
 .heroPic img {
     grid-area: 1 / 1;
-    max-height: 325px;
+    max-height: 500px;
 }
 
 .heroPicBen {
@@ -86,6 +86,17 @@ li {
 .strongBlue {
     color: #00D7D7;
     text-decoration: underline;
+}
+
+@media screen and (min-width: 1600px) {
+    .heroText {
+        font-size: 1.6em;
+        margin-right: 100px;
+    }
+
+    .heroText h1 {
+        font-size: 1.6em;
+    }
 }
 
 @media (max-width: 725px) {
