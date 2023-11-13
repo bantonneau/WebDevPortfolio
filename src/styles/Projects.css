@@ -109,6 +109,7 @@
     margin-left: auto;
     padding-top: 0;
     margin-bottom: 10px;
+    font-size: 1.4em;
 }
 
 .projectTitleBlockB {
@@ -120,6 +121,7 @@
 .projectTitleBlockB h1 {
     padding-top: 0;
     margin-bottom: 10px;
+    font-size: 1.4em;
 }
 
 .projectTitleNumber {
@@ -201,7 +203,7 @@
 }
 
 .projectPicContainer {
-    max-width: 850px;
+    max-width: 700px;
     z-index: 100;
     flex: 3;
     flex-shrink: 0;
@@ -229,6 +231,10 @@
 }
 
 @media screen and (min-width: 1600px) {
+    .projectPicContainer {
+        max-width: 850px;
+    }
+
     .projectDescriptionBlock p {
         font-size: 1.4em; 
     }
@@ -248,6 +254,7 @@
     .projectSkillsBlock {
         font-size: 1.3em;
     }
+    
     .projectSkillsBlockB {
         font-size: 1.3em;
     }
@@ -265,6 +272,14 @@
 
 
 @media screen and (max-width: 1175px) {
+    .projectTitleBlock h1 {
+        font-size: 1.2em;
+    }
+
+    .projectTitleBlockB h1 {
+        font-size: 1.2em;
+    }
+
     .projectSkillsBlock div {
         font-size: 0.7em; 
 
