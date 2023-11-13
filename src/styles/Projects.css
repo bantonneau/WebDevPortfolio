@@ -151,7 +151,7 @@
 
 .projectSkillsBlockB {
     display: flex;
-    justify-content: end;
+    justify-content: start;
     margin-right: -50px;
     z-index: 110;
 }
@@ -201,6 +201,7 @@
 }
 
 .projectPicContainer {
+    max-width: 850px;
     z-index: 100;
     flex: 3;
     flex-shrink: 0;
@@ -226,6 +227,42 @@
     height: 28px;
     margin-top: 10px;
 }
+
+@media screen and (min-width: 1600px) {
+    .projectDescriptionBlock p {
+        font-size: 1.4em; 
+    }
+
+    .projectDescriptionBlockB p {
+        font-size: 1.4em; 
+    }
+
+    .projectTitleBlock h1 {
+        font-size: 2em;
+    }
+
+    .projectTitleBlockB h1 {
+        font-size: 2em;
+    }
+
+    .projectSkillsBlock {
+        font-size: 1.3em;
+    }
+    .projectSkillsBlockB {
+        font-size: 1.3em;
+    }
+    
+    .projectIcon {
+        height: 30px !important;
+        width: auto !important;
+    }
+    
+    .projectIconBlock {
+        height: 36px;
+        margin-top: 10px;
+    }
+}
+
 
 @media screen and (max-width: 1175px) {
     .projectSkillsBlock div {
