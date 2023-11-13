@@ -22,6 +22,12 @@
     padding: 5px;
 }
 
+@media screen and (min-width: 1600px) {
+    .skillsTile {
+        font-size: 1.4em;
+    }
+}
+
 @media screen and (max-width: 600px) {
  .skills {
     flex-direction: column;
