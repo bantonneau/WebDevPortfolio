@@ -236,27 +236,27 @@
     }
 
     .projectDescriptionBlock p {
-        font-size: 1.4em; 
+        font-size: 1.2em; 
     }
 
     .projectDescriptionBlockB p {
-        font-size: 1.4em; 
+        font-size: 1.2em; 
     }
 
     .projectTitleBlock h1 {
-        font-size: 2em;
+        font-size: 1.8em;
     }
 
     .projectTitleBlockB h1 {
-        font-size: 2em;
+        font-size: 1.8em;
     }
 
     .projectSkillsBlock {
-        font-size: 1.3em;
+        font-size: 1.1em;
     }
     
     .projectSkillsBlockB {
-        font-size: 1.3em;
+        font-size: 1.1em;
     }
     
     .projectIcon {
