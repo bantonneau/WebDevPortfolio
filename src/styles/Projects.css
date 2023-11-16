@@ -375,10 +375,14 @@
 
 @media screen and (max-width: 530px) {
     .projectSkillsBlock div {
-        font-size: 0.44em; 
+        font-size: 0.5em; 
+        margin-left: 0;
+        padding: 2px 5px; 
     }
-
+    
     .projectSkillsBlockB div {
-        font-size: 0.44em; 
+        font-size: 0.5em; 
+        margin-left: 0;
+        padding: 2px 5px; 
     }
 }
